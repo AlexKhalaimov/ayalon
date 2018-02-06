@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stage1b</title>
+    <link rel='stylesheet' id='bootstrap-css' href='libs/bootstrap4/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' />
+    <link rel='stylesheet' id='bootstrap-rtl-css' href='libs/bootstrap4/bootstrap.rtl.min.css?ver=4.0.0-alpha.6.1' type='text/css' />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="libs/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js" charset="utf-8"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <!-- Pixel Glass -->
+    <style>
+    HTML {
+    background-repeat: no-repeat;
+    background-position:  50% 0;
+    /* Mobile layout by default */
+    background-image: url( "../img/stage1-b1.png" );
+    }
+    /* Tablet */
+    @media ( min-width: 760px ) {
+    HTML {
+      /* Tablet layout */
+      /* background-image: url( "img/760.png" ); */
+    }
+    }
+    /* Desktop */
+    @media ( min-width: 960px ) {
+    HTML {
+      /* Desktop layout */
+      /* background-image: url( "img/960.png" ); */
+      /* background-image: url( "../img/info_page.jpg" ); */
+    }
+    }
+    </style>
+    <link href="pg/pixel-glass/styles.css" rel="stylesheet">
+    <script src="pg/pixel-glass/script.js"></script>
+    <!-- // Pixel Glass -->
+</head>
+<body class="bodyStage1b">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="header-content">
+                            <figure class="header__figure"><a href="" class="header__link"><img src="img/img_rght.png" alt="" class="header__img img-fluid"></a></figure>
+                            <figure class="header__figure header__figure_logo"><a href="#" class="header__link"><img src="img/logo.png" alt="logo" class="header__img img-fluid"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="topStage1b-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="topStage1b">
+                                <nav>
+                                    <ul class="navList">
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_active">פרטי הביטוח</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">פרטים נוספים</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">פרטי תשלום</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">אישור עסקה</a></li>
+                                    </ul>
+                                    <figure class="nav__figure"><img src="img/stageB/car.png" alt="car" class="nav__img img-fluid">
+
+                                    </figure>
+                                    <div class="nav__progressBar"></div>
+                                </nav>
+                                <h1 class="topStage1b__title">אימות / עדכון פרטי נהגים</h1>
+                                <form action="#" class="topStage1b__form topStage1bForm">
+                                    <div class="form-group">
+                                        <label for="" class="topStage1bForm__label">רשאים לנהוג</label>
+                                        <div class="topStage1bForm__selectWrapper">
+                                            <select class="topStage1bForm__select" name="">
+                                                <option value="">2 נהגים</option>
+                                                <option value="">3 נהגים</option>
+                                                <option value="">1 נהגים</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div><!-- topStage1b -->
+                            <form action="#" class="stage1bForm stage1b__form">
+
+                                <fieldset class="stage1bForm__fieldset stage1bForm__fieldset_1">
+                                    <h2 class="stage1bForm__title">פרטי נהג 1</h2>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">שם מלא</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only"  >שם מלא</label>
+                                                <input type="text" name="" value="" class="stage1bForm__input" placeholder="ישראל ישראלי">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">תעודת זהות</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only">תעודת זהות</label>
+                                                <input type="text" name="" value="" class="stage1bForm__input" placeholder="123456789">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-row_algnSt">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">מין</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <div class="stage1bForm__container">
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+                                                        <input type="radio" name="radio1" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>זכר
+                                                    </label>
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+
+                                                        <input type="radio" name="radio1" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>
+                                                            נקבה
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">ת.לידה</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="stage1bForm__containerRow">
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select" name="">
+                                                            <option value="">2000</option>
+                                                            <option value="">1999</option>
+                                                            <option value="">1998</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select" name="">
+                                                            <option value="">01</option>
+                                                            <option value="">02</option>
+                                                            <option value="">03</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select stage1bForm__select_pl5" name="">
+                                                            <option value="">7</option>
+                                                            <option value="">8</option>
+                                                            <option value="">9</option>
+                                                            <option value="">10</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">שנת הוצאת רישיון</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only">שנת הוצאת רישיון</label>
+                                                <div class="stage1bForm__selectWrapper">
+                                                    <select class="stage1bForm__select" name="">
+                                                        <option value="">1987</option>
+                                                        <option value="">1986</option>
+                                                        <option value="">1985</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="stage1bForm__fieldset stage1bForm__fieldset_2">
+                                    <h2 class="stage1bForm__title">פרטי נהג 2</h2>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">שם מלא</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only"  >שם מלא</label>
+                                                <input type="text" name="" value="" class="stage1bForm__input" placeholder="ישראל ישראלי">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">תעודת זהות</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only">תעודת זהות</label>
+                                                <input type="text" name="" value="" class="stage1bForm__input" placeholder="123456789">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-row_algnSt">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">מין</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <div class="stage1bForm__container">
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+                                                        <input type="radio" name="radio2" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>זכר
+                                                    </label>
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+                                                        <input type="radio" name="radio2" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>
+                                                            נקבה
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">ת.לידה</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="stage1bForm__containerRow">
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select" name="">
+                                                            <option value="">2000</option>
+                                                            <option value="">1999</option>
+                                                            <option value="">1998</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select" name="">
+                                                            <option value="">01</option>
+                                                            <option value="">02</option>
+                                                            <option value="">03</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="stage1bForm__label"></label>
+                                                    <div class="stage1bForm__selectWrapper">
+                                                        <select class="stage1bForm__select stage1bForm__select_pl5" name="">
+                                                            <option value="">7</option>
+                                                            <option value="">8</option>
+                                                            <option value="">9</option>
+                                                            <option value="">10</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">שנת הוצאת רישיון</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label class="stage1bForm__label sr-only">שנת הוצאת רישיון</label>
+                                                <div class="stage1bForm__selectWrapper">
+                                                    <select class="stage1bForm__select" name="">
+                                                        <option value="">1987</option>
+                                                        <option value="">1986</option>
+                                                        <option value="">1985</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-row_algnSt">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">ותק נהיגה</p>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <div class="stage1bForm__container">
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+                                                        <input type="radio" name="radio3" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>עד שנה
+                                                    </label>
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer">
+                                                        <input type="radio" name="radio3" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>בין שנה לשנתיים
+                                                    </label>
+                                                    <label class="stage1bForm__label stage1bForm__radioContainer stage1bForm__radioContainer_mr0">
+                                                        <input type="radio" name="radio3" value="">
+                                                        <span class="stage1bForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>מעל  שנתיים
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="stage1bForm__fieldset stage1bForm__fieldset_3">
+                                    <div class="form-row form-row_border">
+                                        <div class="col">
+                                            <p class="stage1bForm__text">קיים שיעבוד</p>
+                                            <p class="stage1bForm__text stage1bForm__text_bold">הנדיב 12, רמת גן<br>שם המשעבד שם המשעבד</p>
+                                            <div class="form-group">
+                                                <div class="stage1bForm__checkbox">
+                                                    <label  class="stage1bForm__label stage1bForm__checkboxContainer"><input type="checkbox">הסר את השיעבוד<span class="stage1bForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-row_pt25">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <div class="stage1bForm__checkbox">
+                                                    <label  class="stage1bForm__label stage1bForm__checkboxContainer "><input type="checkbox">בכוונתי לשלם באמצעות כ"א יהלום של חבר (המקנה הנחה מיוחדת).<span class="stage1bForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" name="button" class="stage1bForm__submit">לחישוב פרמיה עדכנית</button>
+                                </fieldset>
+                            </form><!-- step1Stage1bForm -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- topStage1b-section -->
+        </main>
+        <footer class="footer">
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <p class="footer__text">הגלישה באתר זה מוגנת ובטוחה. המידע האישי שלכם נאגר בצורה מאובטחת היטב. האבטחה הינה באחריות איילון חברה לביטוח בע"מ</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrapper -->
+</body>
+</html>
