@@ -84,6 +84,11 @@ header {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 0 1.1rem 0 1.5rem;
+}
+
+.header-content .header__figure {
+  margin: 1.6rem 0 2.5rem;
 }
 
 .header-content .header__figure:first-child {
@@ -223,7 +228,7 @@ footer {
   font-weight: 300;
   font-size: 1.3rem;
   margin-bottom: 0;
-  opacity: .6;
+  opacity: 1;
 }
 
 /*---------- STAGE1B PAGE ----------*/
@@ -251,7 +256,7 @@ footer {
 
 .topStage1b {
   background-color: #022a4e;
-  padding: 1.0rem 0rem 5.0rem;
+  padding: 1.3rem 0rem 4.0rem;
 }
 
 .topStage1b__title {
@@ -260,7 +265,7 @@ footer {
   font-weight: 400;
   font-size: 2.1rem;
   letter-spacing: 0.1px;
-  margin-bottom: 4.0rem;
+  margin-bottom: 3.5rem;
   text-align: center;
 }
 
@@ -270,23 +275,23 @@ nav {
 
 nav .nav__figure {
   position: absolute;
-  right: .5rem;
-  top: 2.0rem;
+  right: .3rem;
+  top: 2.2rem;
 }
 
 nav .nav__img {
   position: relative;
-  width: 5.3rem;
+  width: 4.0rem;
   z-index: 1;
 }
 
 nav .nav__progressBar {
   background-color: #fcc40a;
-  bottom: -2.5rem;
+  bottom: -2.0rem;
   height: .5rem;
   position: absolute;
   right: 0;
-  width: 5.5rem;
+  width: 4.5rem;
   z-index: 0;
 }
 
@@ -391,7 +396,7 @@ nav .navList__link_active:focus {
   font-family: "Open Sans Hebrew", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  margin: 0 0 0 2.5rem;
+  margin: 0 0 0 3.5rem;
 }
 
 .topStage1bForm__select {
@@ -433,7 +438,7 @@ nav .navList__link_active:focus {
   height: 4.0rem;
   margin: 0rem;
   position: relative;
-  width: 11.5rem;
+  width: 17.0rem;
 }
 
 .topStage1bForm__selectWrapper::after {
@@ -446,7 +451,7 @@ nav .navList__link_active:focus {
   margin-top: -0.2rem;
   pointer-events: none;
   position: absolute;
-  left: 2.0rem;
+  left: 5.0rem;
   top: 50%;
   width: 0rem;
   z-index: 1;
@@ -474,7 +479,7 @@ nav .navList__link_active:focus {
 }
 
 .stage1bForm .form-row {
-  padding: 3.0rem 0rem 2.0rem;
+  padding: 3.0rem 0rem 0.0rem;
 }
 
 .stage1bForm .form-row_border {
@@ -496,22 +501,27 @@ nav .navList__link_active:focus {
 .stage1bForm__fieldset_1 {
   border-bottom: solid 1px rgba(140, 168, 197, 0.33);
   padding-top: 3.0rem;
+  padding-bottom: 3.2rem;
 }
 
 .stage1bForm__fieldset_2 {
   -webkit-box-shadow: 0 2px 4px 0 rgba(189, 189, 189, 0.5);
   box-shadow: 0 2px 4px 0 rgba(189, 189, 189, 0.5);
   margin-bottom: .5rem;
-  padding-top: 3.0rem;
+  padding-top: 4.5rem;
+}
+
+.stage1bForm__fieldset_2 .form-row {
+  padding-top: 2.8rem;
 }
 
 .stage1bForm__fieldset_3 {
   background-color: #f4f4f4;
-  padding-bottom: 5.0rem;
+  padding-bottom: 4.0rem;
 }
 
 .stage1bForm__fieldset_3 .form-row {
-  padding: 2.0rem 0rem 1.5rem;
+  padding: 1.5rem 0rem 1.5rem;
 }
 
 .stage1bForm__fieldset_3 .form-row_pt25 {
@@ -520,6 +530,11 @@ nav .navList__link_active:focus {
 
 .stage1bForm .col {
   padding: 0rem;
+}
+
+.stage1bForm .stage1bForm__fieldset_1 .col:last-child,
+.stage1bForm .stage1bForm__fieldset_2 .col:last-child {
+  margin-right: -3rem;
 }
 
 .stage1bForm .form-group {
@@ -535,6 +550,37 @@ nav .navList__link_active:focus {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+}
+
+.stage1bForm__fieldset_1 .stage1bForm__container,
+.stage1bForm__fieldset_2 .stage1bForm__container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: .5rem;
+  width: 100%;
+}
+
+.stage1bForm__fieldset_1 .stage1bForm__container_flexCol,
+.stage1bForm__fieldset_2 .stage1bForm__container_flexCol {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .stage1bForm__title {
@@ -620,6 +666,15 @@ nav .navList__link_active:focus {
   opacity: 1;
 }
 
+.stage1bForm input[type="text"] {
+  color: #0a61ff;
+  font-family: "Open Sans Hebrew", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.6px;
+  width: 100%;
+}
+
 .stage1bForm select {
   color: #0a61ff;
   font-family: "Open Sans Hebrew", sans-serif;
@@ -630,6 +685,7 @@ nav .navList__link_active:focus {
   outline: 0px;
   -moz-appearance: none;
   -webkit-appearance: none;
+  -webkit-appearance: menulist;
 }
 
 .stage1bForm select::-ms-expand {
@@ -745,7 +801,7 @@ nav .navList__link_active:focus {
   font-family: "Open Sans Hebrew", sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
-  margin: 2.0rem auto 0;
+  margin: 0.0rem auto 0;
   padding: .9rem 3.9rem;
   position: relative;
 }
