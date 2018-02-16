@@ -902,7 +902,7 @@ nav .navList__link_passed::after {
   opacity: 1;
 }
 
-.stageForm input[type="text"], .stageForm input[type="number"] {
+.stageForm input[type="text"], .stageForm input[type="number"], .stageForm input[type="tel"], .stageForm input[type="email"], .stageForm input[type="password"] {
   color: #0a61ff;
   font-family: "Open Sans Hebrew", sans-serif;
   font-weight: 400;
