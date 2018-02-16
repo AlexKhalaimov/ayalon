@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stage2a</title>
+    <link rel='stylesheet' id='bootstrap-css' href='libs/bootstrap4/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' />
+    <link rel='stylesheet' id='bootstrap-rtl-css' href='libs/bootstrap4/bootstrap.rtl.min.css?ver=4.0.0-alpha.6.1' type='text/css' />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="libs/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js" charset="utf-8"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</head>
+<body class="bodyStage2a bodyStage">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="header-content">
+                            <figure class="header__figure"><a href="#" class="header__link"><img src="img/logo-ayalon.png" alt="לוגו של איילון" class="header__img img-fluid"></a></figure>
+                            <figure class="header__figure header__figure_logo"><a href="#" class="header__link"><img src="img/easy-bit.png" alt="לוגו של איזיביט" class="header__img img-fluid"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="topStage2a-section topStage-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="topStage2a topStage">
+                                <p class="sr-only">הנך נמצא בשלב ראשון מתוך 4 - פרטי הביטוח</p>
+                                <nav aria-hidden="true">
+                                    <ul class="navList">
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_passed"></a></li>
+                                        <li class="navList__item navList__item_divider navList__item_passed"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_active">פרטים נוספים</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">פרטי תשלום</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">אישור עסקה</a></li>
+                                    </ul>
+                                    <figure class="nav__figure"><img src="img/stageB/car.png" alt="car" class="nav__img img-fluid">
+                                    </figure>
+                                    <div class="nav__progressBar"></div>
+                                </nav>
+                            </div><!-- topStage -->
+                            <form action="#" class="stageForm stage2a__form">
+                                <div class="stageForm__fieldset stageForm__fieldset_1">
+                                    <div class="stageForm__container">
+                                        <p class="stageForm__text">מין הנהג הצעיר ביותר</p>
+                                        <p class="stageForm__text stageForm__text_bold">נקבה</p>
+                                    </div>
+                                    <div class="stageForm__container">
+                                        <p class="stageForm__text">גיל הנהג המבוגר ביותר</p>
+                                        <p class="stageForm__text stageForm__text_bold">65</p>
+                                    </div>
+                                    <div class="stageForm__container">
+                                        <p class="stageForm__text">היסטוריית תביעות גוף של הנהגים</p>
+                                        <p class="stageForm__text stageForm__text_bold">אין</p>
+                                    </div>
+                                    <div class="stageForm__container stageForm__accordion">
+                                        <p class="stageForm__text"> מספר תביעות רכב רכוש ב-3  השנים האחרונות</p>
+                                        <p class="stageForm__text stageForm__text_bold d-flex"> <span>3</span> <a role="button" aria-expanded="false" href="#" class="stageForm__link collapsed" data-toggle="collapse" data-target="#accordionItem">פירוט</a></p>
+                                    </div>
+                                    <div class="collapse accordionItem" id="accordionItem" >
+                                        <p class="accordionItem__header">פירוט היסטורית תביעות</p>
+                                        <div class="accordionItem__container">
+                                            <p class="stageForm__text"> שנה קודמת</p>
+                                            <p class="stageForm__text">0</p>
+                                        </div>
+                                        <div class="accordionItem__container">
+                                            <p class="stageForm__text"> לפני שנתיים</p>
+                                            <p class="stageForm__text">1</p>
+                                        </div>
+                                        <div class="accordionItem__container">
+                                            <p class="stageForm__text">לפני 3 שנים</p>
+                                            <p class="stageForm__text">2</p>
+                                        </div>
+                                    </div>
+                                    <div class="stageForm__container">
+                                        <p class="stageForm__text">שלילת רישיון נהיגה</p>
+                                        <p class="stageForm__text stageForm__text_bold">אין</p>
+                                    </div>
+                                    <div class="stageForm__container">
+                                        <p class="stageForm__text">רישיון הרכב בתוקף</p>
+                                        <p class="stageForm__text stageForm__text_bold">כן</p>
+                                    </div>
+                                </div>
+                                <div class="stageForm__fieldset stageForm__fieldset_2">
+                                    <h2 class="stageForm__header">קיום אביזרים נוספים</h2>
+                                    <ul class="stageForm__list">
+                                        <li class="stageForm__listItem">שירותי גרירה</li>
+                                        <li class="stageForm__listItem">שירותי החלפת גלגל</li>
+                                        <li class="stageForm__listItem">החלפת שמשות במקרה שבר</li>
+                                        <li class="stageForm__listItem">אספקת דלק</li>
+                                        <li class="stageForm__listItem">רכב חלופי במקרה תאונה, אובדן וגניבה</li>
+                                        <li class="stageForm__listItem">שירותי החלפת גלגל</li>
+                                        <li class="stageForm__listItem">החלפת שמשות במקרה שבר</li>
+                                    </ul>
+                                </div>
+                                <div class="stageForm__fieldset stageForm__fieldset_3">
+                                    <h2 class="stageForm__header stageForm__header_bold">מיגון הנדרש לרכב</h2>
+                                    <p class="stageForm__text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק. קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש.</p>
+                                </div>
+                                <div class="stageForm__fieldset stageForm__fieldset_4 ">
+                                    <h2 class="stageForm__header stageForm__header_bold">בחירת ספקי כתב שירות</h2>
+                                    <div class="form-group">
+                                        <label class="stageForm__label" for="service_provider1">ספק שמשות</label>
+                                        <div class="stageForm__selectWrapper">
+                                            <select class="stageForm__select" name="" id="service_provider1">
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                            </select>
+                                        </div>
+                                    </div><!-- form-group -->
+                                    <div class="form-group">
+                                        <label class="stageForm__label" for="service_provider2">ספק שירותי VIP</label>
+                                        <div class="stageForm__selectWrapper">
+                                            <select class="stageForm__select" name="" id="service_provider2">
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                            </select>
+                                        </div>
+                                    </div><!-- form-group -->
+                                    <div class="form-group">
+                                        <label class="stageForm__label" for="service_provider3">ספק גרירה</label>
+                                        <div class="stageForm__selectWrapper">
+                                            <select class="stageForm__select" name="" id="service_provider3">
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                            </select>
+                                        </div>
+                                    </div><!-- form-group -->
+                                    <div class="form-group">
+                                        <label class="stageForm__label" for="service_provider4">ספק רכב חלופי</label>
+                                        <div class="stageForm__selectWrapper">
+                                            <select class="stageForm__select" name="" id="service_provider4">
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                                <option value="">איילון</option>
+                                            </select>
+                                        </div>
+                                    </div><!-- form-group -->
+                                </div>
+                                <div class="stageForm__fieldset stageForm__fieldset_5 ">
+                                    <div class="stageForm__checkbox">
+                                        <label  class="stageForm__label stageForm__checkboxContainer" for="st2a_confirm"><input type="checkbox" id="st2a_confirm">אני מאשר/ת את תקינות המיגון ואת פרטי הביטוח <br>אשר הוצגו במסכים. כמו כן, קראתי את <a class="stageForm__link" href="#">ההצהרה</a> <span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                    </div>
+                                    <button type="submit" name="button" class="stageForm__submit" id="stageFormSubmit">אישור ומעבר למסך הבא</button>
+                                </div>
+                            </form><!-- stage2a__form -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- topStage2a-section -->
+        </main>
+        <footer class="footer">
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <p class="footer__text">הגלישה באתר זה מוגנת ובטוחה. המידע האישי שלכם נאגר בצורה מאובטחת היטב. האבטחה הינה באחריות איילון חברה לביטוח בע"מ</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrapper -->
+</body>
+</html>

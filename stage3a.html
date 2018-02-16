@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stage3a</title>
+    <link rel='stylesheet' id='bootstrap-css' href='libs/bootstrap4/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' />
+    <link rel='stylesheet' id='bootstrap-rtl-css' href='libs/bootstrap4/bootstrap.rtl.min.css?ver=4.0.0-alpha.6.1' type='text/css' />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="libs/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js" charset="utf-8"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</head>
+<body class="bodyStage3a bodyStage">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="header-content">
+                            <figure class="header__figure"><a href="#" class="header__link"><img src="img/logo-ayalon.png" alt="לוגו של איילון" class="header__img img-fluid"></a></figure>
+                            <figure class="header__figure header__figure_logo"><a href="#" class="header__link"><img src="img/easy-bit.png" alt="לוגו של איזיביט" class="header__img img-fluid"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="topStage3a-section topStage-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="topStage3a topStage">
+                                <p class="sr-only">הנך נמצא בשלב ראשון מתוך 4 - פרטי הביטוח</p>
+                                <nav aria-hidden="true">
+                                    <ul class="navList">
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_passed"></a></li>
+                                        <li class="navList__item navList__item_divider navList__item_passed"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_passed"></a></li>
+                                        <li class="navList__item navList__item_divider navList__item_passed"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link navList__link_active">פרטי תשלום</a></li>
+                                        <li class="navList__item navList__item_divider"></li>
+                                        <li class="navList__item"><a href="#" class="navList__link">אישור עסקה</a></li>
+                                    </ul>
+                                    <figure class="nav__figure"><img src="img/stageB/car.png" alt="car" class="nav__img img-fluid">
+                                    </figure>
+                                    <div class="nav__progressBar"></div>
+                                </nav>
+                                <h1 class="topStage__title">סה"כ לתשלום חובה ומקיף</h1>
+                                <p class="topStage__subtitle">₪5,713</p>
+                            </div><!-- topStage -->
+                            <div class="stageTip">
+                                <p class="stageTip__text">
+                                    לתשומת ליבך בחרת לשלם פוליסה זו באמצעות כרטיס אשראי יהלום של חבר המקנה לך הנחה נוספת
+                                </p>
+                            </div>
+                            <form action="#" class="stageForm stage3a__form">
+                                <div class="stageForm__fieldset stageForm__fieldset_1">
+                                    <h2 class="stageForm__title">פרטי תשלום</h2>
+                                    <div class="stageFormPayment stageForm__payment">
+                                        <div class="stageFormPaymentItem">
+                                            <figure class="stageFormPaymentItem__figure "><i class="icon icon-american"></i></figure>
+                                            <figure class="stageFormPaymentItem__figure "><i class="icon icon-master"></i></figure>
+                                            <figure class="stageFormPaymentItem__figure "><i class="icon icon-diners"></i></figure>
+                                            <figure class="stageFormPaymentItem__figure "><i class="icon icon-visa"></i></figure>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label class="stageForm__text" for="dr_card_num">מספר כרטיס</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <input type="number" name="" value="" id="dr_card_num" class="stageForm__input" placeholder="4580111557403756">
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                    <fieldset>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <legend class="stageForm__text">תוקף</legend>
+                                            </div>
+                                            <div class="col">
+                                                <div class="stageForm__containerRow">
+                                                    <div class="form-group">
+                                                        <div class="stageForm__selectWrapper">
+                                                            <select class="stageForm__select" name="card_expire_year" aria-label="dr_card_expire_year">
+                                                                <option value="">2020</option>
+                                                                <option value="">2021</option>
+                                                                <option value="">2022</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group form-group_pl2">
+                                                        <div class="stageForm__selectWrapper">
+                                                            <select class="stageForm__select" name="card_expire_month" aria-label="dr_card_expire_month">
+                                                                <option value="">10</option>
+                                                                <option value="">09</option>
+                                                                <option value="">08</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- form-row -->
+                                    </fieldset>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label class="stageForm__text" for="dr_card_id">קוד זיהוי הכרטיס</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group form-group_pl2">
+                                                <input type="number" name="" value="" id="dr_card_id" class="stageForm__input" placeholder="123">
+                                                <i class="icon icon-question"></i>
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                    <div class="form-row form-row_pb1">
+                                        <div class="col">
+                                            <label for="dr_payments_num" class="stageForm__text" >מספר תשלומים</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="stageForm__containerRow">
+                                                <div class="form-group">
+                                                    <div class="stageForm__selectWrapper">
+                                                        <select class="stageForm__select" name="payments_num" id="dr_payments_num">
+                                                            <option value="">3</option>
+                                                            <option value="">2</option>
+                                                            <option value="">1</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                    <p class="stageForm__text stageForm__text_alert">* לתשומת ליבך גובה הפרמיה השתנה</p>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="dr_cardholder_id" class="stageForm__text">ת.ז בעל הכרטיס</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <input type="number" name="" value="" id="dr_cardholder_id" class="stageForm__input" placeholder="45123456">
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="dr_cardholder_fname" class="stageForm__text stageForm__text_w51">שם פרטי בעל הכרטיס</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <input type="text" name="" value="" id="dr_cardholder_fname" class="stageForm__input" placeholder="ישראל">
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label for="dr_cardholder_lname" class="stageForm__text stageForm__text_w51">שם משפחה בעל הכרטיס</label>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <input type="text" name="" value="" id="dr_cardholder_lname" class="stageForm__input" placeholder="ישראל">
+                                            </div>
+                                        </div>
+                                    </div><!-- form-row -->
+                                </div>
+                                <div class="stageForm__fieldset stageForm__fieldset_5 ">
+                                    <div class="stageForm__checkbox">
+                                        <label  for="st3a_confirm" class="stageForm__label stageForm__checkboxContainer"><input  type="checkbox" id="st3a_confirm">קראתי את ההצהרה ואני מאשר את פרטיה <span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                    </div>
+                                    <button type="submit" name="button" class="stageForm__submit" id="stageFormSubmit">אישור וביצוע תשלום</button>
+                                </div>
+                            </form><!-- stage3a__form -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- topStage3a-section -->
+        </main>
+        <footer class="footer">
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <p class="footer__text">הגלישה באתר זה מוגנת ובטוחה. המידע האישי שלכם נאגר בצורה מאובטחת היטב. האבטחה הינה באחריות איילון חברה לביטוח בע"מ</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrapper -->
+</body>
+</html>

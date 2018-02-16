@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel='stylesheet' id='bootstrap-css' href='libs/bootstrap4/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' />
+    <link rel='stylesheet' id='bootstrap-rtl-css' href='libs/bootstrap4/bootstrap.rtl.min.css?ver=4.0.0-alpha.6.1' type='text/css' />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="libs/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js" charset="utf-8"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</head>
+<body class="bodyHome">
+    <div class="wrapper">
+        <header>
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="header-content">
+                            <figure class="header__figure"><a href="#" class="header__link"><img src="img/logo-ayalon.png" alt="לוגו של איילון" class="header__img img-fluid"></a></figure>
+                            <figure class="header__figure header__figure_logo"><a href="#" class="header__link"><img src="img/easy-bit.png" alt="לוגו של איזיביט" class="header__img img-fluid"></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="top-section">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="top">
+                                <figure class="top__figure">
+                                    <img src="img/illustration.svg" class="top__img" alt="">
+                                </figure>
+                                <h1 class="top__title">חידוש ביטוח רכב</h1>
+                                <p class="top__subtitle">לעמיתי חבר</p>
+                                <form action="#" class="top__form loginForm">
+                                    <div class="form-group">
+                                        <input type="number" name="id" value="" class="loginForm__input" placeholder="ת.ז" aria-label="תעודת זהות">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="pass1" value="" class="loginForm__input" placeholder="סיסמא" aria-label="סיסמא">
+                                        <p class="loginForm__text loginForm__text_bld" id="idDsntMatch">* אחד מהנתונים שהזנת שגויים</p>
+                                    </div>
+                                    <div class="loginForm__match" id="idMatch">
+                                        <p class="loginForm__text">XXXX קוד הכניסה נשלח לטלפון שמסתיים ב</p>
+                                        <div class="form-group">
+                                            <input type="password" name="pass2" value="" class="loginForm__input" placeholder="" aria-label="סיסמא">
+                                            <p class="loginForm__text loginForm__text_sm" >במידה וזה לא הטלפון שלך, אנא פנה לשירות הלקוחות בטלפון 1700-700-682</p>
+                                        </div>
+                                    </div>
+                                    <button type="submit" name="Submitbutton" class="loginForm__submit">המשך</button>
+                                </form>
+                                <div class="idMatchCopy" id="idMatchCopy">
+                                    <figure class="idMatchCopy__figure"><i class="icon icon-idea"></i></figure>
+                                    <h2 class="idMatchCopy__title">לתשומת ליבך, קיימות מספר פוליסות מתחדשות על שמך</h2>
+                                    <p class="idMatchCopy__text">לחידוש הפוליסה המבוקשת אנא פנה למוקד שירות הלקוחות בטלפון&nbsp;<a href="tel=1700700682" class="idMatchCopy__link">1700-700-682</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- top-section -->
+        </main>
+        <footer class="footer">
+            <div class="container-fluid px-0">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <p class="footer__text">הגלישה באתר זה מוגנת ובטוחה. המידע האישי שלכם נאגר בצורה מאובטחת היטב. האבטחה הינה באחריות איילון חברה לביטוח בע"מ</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrapper -->
+</body>
+</html>

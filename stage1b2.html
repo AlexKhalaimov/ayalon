@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Stage1b</title>
+    <title>Stage1b2</title>
     <link rel='stylesheet' id='bootstrap-css' href='libs/bootstrap4/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' />
     <link rel='stylesheet' id='bootstrap-rtl-css' href='libs/bootstrap4/bootstrap.rtl.min.css?ver=4.0.0-alpha.6.1' type='text/css' />
     <link rel="stylesheet" href="css/styles.css">
@@ -15,7 +15,7 @@
     <script src="libs/bootstrap4/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/main.js" charset="utf-8"></script>
 </head>
-<body class="bodyStage1b bodyStage">
+<body class="bodyStage1b2 bodyStage">
     <div class="wrapper">
         <header>
             <div class="container-fluid px-0">
@@ -30,12 +30,12 @@
             </div>
         </header>
         <main>
-            <section class="topStage1b-section topStage-section">
+            <section class="topStage1b2-section topStage-section">
                 <div class="container-fluid px-0">
                     <div class="row no-gutters">
                         <div class="col">
-                            <div class="topStage1b topStage">
-                            	<p class="sr-only">הנך נמצא בשלב ראשון מתוך 4 - פרטי הביטוח</p>
+                            <div class="topStage1b2 topStage">
+                                <p class="sr-only">הנך נמצא בשלב ראשון מתוך 4 - פרטי הביטוח</p>
                                 <nav aria-hidden="true">
                                     <ul class="navList">
                                         <li class="navList__item"><a href="#" class="navList__link navList__link_active">פרטי הביטוח</a></li>
@@ -46,57 +46,28 @@
                                         <li class="navList__item navList__item_divider"></li>
                                         <li class="navList__item"><a href="#" class="navList__link">אישור עסקה</a></li>
                                     </ul>
-                                    <figure class="nav__figure"><img src="img/stageB/car.png" alt="" class="nav__img img-fluid">
+                                    <figure class="nav__figure"><img src="img/stageB/car.png" alt="car" class="nav__img img-fluid">
+
                                     </figure>
                                     <div class="nav__progressBar"></div>
                                 </nav>
                                 <h1 class="topStage__title">אימות / עדכון פרטי נהגים</h1>
-                                <div  class="topStage1b__form topStageForm">
+                                <div  class="topStage1b2__form topStageForm">
                                     <div class="form-group">
-                                        <label class="topStageForm__label" for="drivers_num">רשאים לנהוג</label>
+                                        <label for="dr_class" class="topStageForm__label">רשאים לנהוג</label>
                                         <div class="topStageForm__selectWrapper">
-                                            <select class="topStageForm__select" name="drivers_num" id="drivers_num" form="stage1b_form">
-                                                <option value="">2 נהגים</option>
-                                                <option value="">3 נהגים</option>
-                                                <option value="">1 נהגים</option>
+                                            <select class="topStageForm__select" name="" id="dr_class" form="stage1b2__form">
+                                                <option value="">ללא הגבלה – כל נהג</option>
+                                                <option value="">ללא הגבלה – כל נהג</option>
+                                                <option value="">ללא הגבלה – כל נהג</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- topStage -->
-                            <form action="#" class="stageForm stage1b__form" id="stage1b__form">
+                            <form action="#" class="stageForm stage1b2__form" id="stage1b2__form">
                                 <div class="stageForm__fieldset stageForm__fieldset_1">
-                                    <h2 class="stageForm__title">פרטי נהג 1</h2>
-                                    <div class="form-row">
-                                        <label class="col stageForm__text" for="dr_name">שם מלא</label>
-                                        <input type="text" name="dr_name" id="dr_name" value="" class="col form-group stageForm__input" placeholder="ישראל ישראלי">
-                                    </div>
-                                    <div class="form-row">
-                                        <label class="col stageForm__text" for="dr_id">תעודת זהות</label>
-                                        <input type="number" name="dr_id" id="dr_id" value="" class="col form-group stageForm__input" placeholder="123456789">
-                                    </div>
-                                    <fieldset>
-                                        <div class="form-row form-row_algnSt">
-                                            <div class="col">
-                                                <legend class="stageForm__text">מין</legend>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <div class="stageForm__container">
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_male">
-                                                            <input type="radio" name="gender" id="dr_male" value="">
-                                                            <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>זכר
-                                                        </label>
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_female">
-                                                            <input type="radio" name="gender" id="dr_female" value="">
-                                                            <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>
-                                                                נקבה
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </fieldset>
+                                    <h2 class="stageForm__title">פרטי הנהג הצעיר ביותר</h2>
                                     <fieldset>
                                         <div class="form-row">
                                             <div class="col">
@@ -106,7 +77,7 @@
                                                 <div class="stageForm__containerRow">
                                                     <div class="form-group">
                                                         <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select" name="year" aria-label="שנת לידה">
+                                                            <select class="stageForm__select" name="" aria-label="dr_birth_year">
                                                                 <option value="">2000</option>
                                                                 <option value="">1999</option>
                                                                 <option value="">1998</option>
@@ -115,7 +86,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select" name="month" aria-label="חודש לידה">
+                                                            <select class="stageForm__select" name="" aria-label="dr_birth_month">
                                                                 <option value="">01</option>
                                                                 <option value="">02</option>
                                                                 <option value="">03</option>
@@ -124,7 +95,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select stageForm__select_pl5" name="day" aria-label="יום לידה">
+                                                            <select class="stageForm__select stageForm__select_pl5" name="" aria-label="dr_birth_day">
                                                                 <option value="">7</option>
                                                                 <option value="">8</option>
                                                                 <option value="">9</option>
@@ -138,30 +109,13 @@
                                     </fieldset>
                                     <div class="form-row">
                                         <div class="col">
-                                            <label class="stageForm__text" for="dr_license">שנת הוצאת רישיון</label>
+                                            <label for="dr_age_group" class="stageForm__text">קבוצת גיל</label>
                                         </div>
                                         <div class="col">
                                             <div class="form-group">
-                                                <div class="stageForm__selectWrapper">
-                                                    <select class="stageForm__select" name="dr_license" id="dr_license">
-                                                        <option value="">1987</option>
-                                                        <option value="">1986</option>
-                                                        <option value="">1985</option>
-                                                    </select>
-                                                </div>
+                                                <input type="text" name="" value="" id="dr_age_group" class="stageForm__input" placeholder="שם קבוצת גיל ">
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="stageForm__fieldset stageForm__fieldset_2">
-                                    <h2 class="stageForm__title">פרטי נהג 2</h2>
-                                    <div class="form-row">
-                                        <label class="col stageForm__text" for="dr_name_2">שם מלא</label>
-                                        <input type="text" name="dr_name" id="dr_name_2" value="" class="col form-group stageForm__input" placeholder="ישראל ישראלי">
-                                    </div>
-                                    <div class="form-row">
-                                        <label class="col stageForm__text" for="dr_id_2">תעודת זהות</label>
-                                        <input type="number" name="dr_id" id="dr_id_2" value="" class="col form-group stageForm__input" placeholder="123456789">
                                     </div>
                                     <fieldset>
                                         <div class="form-row form-row_algnSt">
@@ -171,12 +125,12 @@
                                             <div class="col">
                                                 <div class="form-group">
                                                     <div class="stageForm__container">
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_male_2">
-                                                            <input type="radio" name="gender_2" id="dr_male_2" value="">
+                                                        <label for="st1b2_male" class="stageForm__label stageForm__radioContainer">
+                                                            <input type="radio" name="st1b2_gender" value="" id="st1b2_male">
                                                             <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>זכר
                                                         </label>
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_female_2">
-                                                            <input type="radio" name="gender_2" id="dr_female_2" value="">
+                                                        <label for="st1b2_female" class="stageForm__label stageForm__radioContainer">
+                                                            <input type="radio" name="st1b2_gender" value="" id="st1b2_female">
                                                             <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>
                                                                 נקבה
                                                         </label>
@@ -185,55 +139,15 @@
                                             </div>
                                         </div>
                                     </fieldset>
-                                    <fieldset>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <legend class="stageForm__text">ת.לידה</legend>
-                                            </div>
-                                            <div class="col">
-                                                <div class="stageForm__containerRow">
-                                                    <div class="form-group">
-                                                        <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select" name="year" aria-label="שנת לידה">
-                                                                <option value="">2000</option>
-                                                                <option value="">1999</option>
-                                                                <option value="">1998</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="stageForm__label"></label>
-                                                        <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select" name="month" aria-label="חודש לידה">
-                                                                <option value="">01</option>
-                                                                <option value="">02</option>
-                                                                <option value="">03</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="stageForm__label"></label>
-                                                        <div class="stageForm__selectWrapper">
-                                                            <select class="stageForm__select stageForm__select_pl5" name="day" aria-label="יום לידה">
-                                                                <option value="">7</option>
-                                                                <option value="">8</option>
-                                                                <option value="">9</option>
-                                                                <option value="">10</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </fieldset>
+
                                     <div class="form-row">
                                         <div class="col">
-                                            <label class="stageForm__text" for="dr_license_2">שנת הוצאת רישיון</label>
+                                            <label for="st1b2_dr_license" class="stageForm__text">שנת הוצאת רישיון</label>
                                         </div>
                                         <div class="col">
                                             <div class="form-group">
                                                 <div class="stageForm__selectWrapper">
-                                                    <select class="stageForm__select" name="dr_license" id="dr_license_2">
+                                                    <select class="stageForm__select" name="" id="st1b2_dr_license">
                                                         <option value="">1987</option>
                                                         <option value="">1986</option>
                                                         <option value="">1985</option>
@@ -250,16 +164,16 @@
                                             <div class="col">
                                                 <div class="form-group">
                                                     <div class="stageForm__container stageForm__container_flexCol">
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_years_1">
-                                                            <input type="radio" name="dr_years" id="dr_years_1" value="">
+                                                        <label for="st1b2_years_1" class="stageForm__label stageForm__radioContainer">
+                                                            <input type="radio" name="st1b2_years" value="" id="st1b2_years_1">
                                                             <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>עד שנה
                                                         </label>
-                                                        <label class="stageForm__label stageForm__radioContainer" for="dr_years_1_2">
-                                                            <input type="radio" name="dr_years" id="dr_years_1_2" value="">
+                                                        <label for="st1b2_years_2" class="stageForm__label stageForm__radioContainer">
+                                                            <input type="radio" name="st1b2_years" value="" id="st1b2_years_2">
                                                             <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>בין שנה לשנתיים
                                                         </label>
-                                                        <label class="stageForm__label stageForm__radioContainer stageForm__radioContainer_mr0" for="dr_years_2">
-                                                            <input type="radio" name="dr_years" id="dr_years_2" value="">
+                                                        <label for="st1b2_years_3" class="stageForm__label stageForm__radioContainer stageForm__radioContainer_mr0">
+                                                            <input type="radio" name="st1b2_years" value="" id="st1b2_years_3">
                                                             <span class="stageForm__radioCheckmark"><i class="icon-radio-off"></i><i class="icon-radio-on"></i></span>מעל  שנתיים
                                                         </label>
                                                     </div>
@@ -275,7 +189,7 @@
                                             <p class="stageForm__text stageForm__text_bold">הנדיב 12, רמת גן<br>שם המשעבד שם המשעבד</p>
                                             <div class="form-group">
                                                 <div class="stageForm__checkbox">
-                                                    <label class="stageForm__label stageForm__checkboxContainer" for="slavery"><input type="checkbox" name="slavery" id="slavery">הסר את השיעבוד<span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                                    <label  for="st1b2_dr_slavery" class="stageForm__label stageForm__checkboxContainer"><input type="checkbox" id="st1b2_dr_slavery">הסר את השיעבוד<span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
                                                 </div>
                                             </div>
                                         </div>
@@ -284,18 +198,18 @@
                                         <div class="col">
                                             <div class="form-group">
                                                 <div class="stageForm__checkbox">
-                                                    <label class="stageForm__label stageForm__checkboxContainer " for="pay_di"><input type="checkbox" name="pay_di" id="pay_di">בכוונתי לשלם באמצעות כ"א יהלום של חבר (המקנה הנחה מיוחדת).<span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
+                                                    <label for="st1b2_dr_pay_di" class="stageForm__label stageForm__checkboxContainer "><input type="checkbox" id="st1b2_dr_pay_di">בכוונתי לשלם באמצעות כ"א יהלום של חבר (המקנה הנחה מיוחדת).<span class="stageForm__checkboxMark"><i class="icon-check-off"></i><i class="icon-check-on"></i></span></label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <button type="submit" name="button" class="stageForm__submit" id="stageFormSubmit">לחישוב פרמיה עדכנית</button>
                                 </div>
-                            </form><!-- step1stageForm -->
+                            </form><!-- stageForm -->
                         </div>
                     </div>
                 </div>
-            </section><!-- topStage1b-section -->
+            </section><!-- topStage1b2-section -->
         </main>
         <footer class="footer">
             <div class="container-fluid px-0">
